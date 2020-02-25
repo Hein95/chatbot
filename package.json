@@ -1,0 +1,25 @@
+{
+  "name": "dbot",
+  "version": "1.0.0",
+  "description": "DBot Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" &amp;&amp; exit 1\"",
+	"start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Hein95"
+  },
+  "keywords": [
+    "Hein"
+  ],
+  "author": "Hein Htet Aung",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "request": "^2.88.2"
+  }
+}
