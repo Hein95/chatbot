@@ -68,7 +68,7 @@ function processPostback(event) {
         greeting = "Hi " + name + ". ";
       }
 
-	  var message = greeting + "My name is Chatbot Mark I. I can tell you various details Dinger. What would you like do with me ;)?";
+	  var message = greeting + "My name is Dinger Bot Mark (I). I can tell you various details Dinger. What would you like do with me ;) ?";
       sendMessage(senderId, {text: message});
     });
   }
